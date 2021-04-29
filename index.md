@@ -87,27 +87,19 @@
 	<div class="container h-100">
 		<div class="d-flex justify-content-center h-100">
 			<div class="user_card">
-				<div class="d-flex justify-content-center">
-					<div class="brand_logo_container">
-						<img src="kehilot-logo.png" class="brand_logo" alt="Logo">
-					</div>
-				</div>
-				<div class="d-flex justify-content-center mt-3 login_container">
-				  אנו חווים כרגע בעיית תקשורת, נחזור לפעילות בהקדם האפשרי
-				</div>
 					
 				<div class="d-flex justify-content-center mt-3 login_container">
 					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">קבל אמא</button>
-										<span class="aaa">           </span>
+										<span class="aaa"></span>
 
 					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">שלח משתמש</button>
-										<span class="aaa">           </span>
+										<span class="aaa"></span>
 
 					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">קבל משתמש</button>
-										<span class="aaa">           </span>
+										<span class="aaa"></span>
 
 					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">צלם מסך</button>
-										<span class="aaa">           </span>
+										<span class="aaa"></span>
 
 					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">הפעל מחדש</button>
 				</div>
