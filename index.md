@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -40,7 +40,6 @@
 <div class="container h-100">
     <div class="d-flex justify-content-center h-100">
         <div class="user_card">
-
             <div class="d-flex justify-content-center mt-3 login_container">
                 <button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">קבל אמא</button>
                 <span class="aaa"></span>
