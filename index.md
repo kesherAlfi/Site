@@ -98,9 +98,17 @@
 					
 				<div class="d-flex justify-content-center mt-3 login_container">
 					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">קבל אמא</button>
+										<span class="aaa">           </span>
+
 					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">שלח משתמש</button>
+										<span class="aaa">           </span>
+
 					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">קבל משתמש</button>
+										<span class="aaa">           </span>
+
 					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">צלם מסך</button>
+										<span class="aaa">           </span>
+
 					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">הפעל מחדש</button>
 				</div>
 			</div>
