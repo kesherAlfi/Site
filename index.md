@@ -54,6 +54,33 @@
 			width: 24px;
 		}
 	</style>
+	
+	<script type="text/javascript">
+	
+	
+    function showAndroidToast(text) {
+        KehilotSamsung.showToast(text);
+    }
+    
+     function getImei() {
+        var imei = KehilotSamsung.getImei();
+	showAndroidToast(imei)
+    }
+    
+     function getUserName() {
+        var userName = KehilotSamsung.getUserName();
+	showAndroidToast(userName)
+    }
+    
+     function sendUserName(place, userName) {
+        KehilotSamsung.saveUserName(place, userName);
+    }
+    
+     function showAndroidToast() {
+        KehilotSamsung.showToast("בדיקה");
+    }
+    
+    </script>
 </head>
 
 <body>
@@ -68,17 +95,13 @@
 				<div class="d-flex justify-content-center mt-3 login_container">
 				  אנו חווים כרגע בעיית תקשורת, נחזור לפעילות בהקדם האפשרי
 				</div>
-					<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
-<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
-				<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
-
-<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
-
-<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
-
-<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
-
-
+					
+				<div class="d-flex justify-content-center mt-3 login_container">
+					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">קבל אמא</button>
+					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">שלח משתמש</button>
+					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">קבל משתמש</button>
+					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">צלם מסך</button>
+					<button type="button" name="button" class="btn login_btn" onClick="KehilotSamsung('Hello Android!')">הפעל מחדש</button>
 				</div>
 			</div>
 		</div>
