@@ -68,10 +68,17 @@
 				<div class="d-flex justify-content-center mt-3 login_container">
 				  אנו חווים כרגע בעיית תקשורת, נחזור לפעילות בהקדם האפשרי
 				</div>
-					<div class="d-flex justify-content-center mt-3 login_container">
-					<a href="tutsplus://refresh"><button type="button" name="button" class="btn login_btn">נסה שנית</button></a>
-					<span class="aaa">           </span>
-					<a href="tutsplus://reboot"><button type="button" name="button" class="btn login_btn">הפעל מחדש</button></a>
+					<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+				<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+
+
 				</div>
 			</div>
 		</div>
